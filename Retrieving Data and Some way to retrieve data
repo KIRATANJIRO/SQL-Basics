@@ -1,0 +1,13 @@
+SELECT * FROM Employees;
+
+SELECT Name, Salary FROM Employees WHERE Salary > 70000;
+
+SELECT Name, HireDate FROM Employees WHERE HireDate > '2020-01-01';
+
+SELECT Department, COUNT(*) AS EmployeeCount
+FROM Employees
+GROUP BY Department;
+
+SELECT e.Name, e.Salary, d.Location 
+FROM Employees e
+JOIN Departments d ON e.Department = d.DepartmentName;
