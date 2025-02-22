@@ -1,0 +1,11 @@
+INSERT INTO Employees (EmployeeID, Name, Department, Salary, HireDate) VALUES
+(1, 'Agam Srivastava', 'HR', 60000, '2020-06-15'),
+(2, 'Bob Smith', 'IT', 80000, '2019-08-22'),
+(3, 'Charlie Brown', 'Finance', 75000, '2021-02-10'),
+(4, 'Diana Prince', 'IT', 90000, '2018-05-30'),
+(5, 'Eve Adams', 'HR', 62000, '2022-01-12');
+
+INSERT INTO Departments (DepartmentID, DepartmentName, Location) VALUES
+(1, 'HR', 'New York'),
+(2, 'IT', 'San Francisco'),
+(3, 'Finance', 'Chicago');
